@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
-.dashboard-main-div{
+
+.dashboard-child-div{
     display: flex;
     flex-direction: column;
     margin: 20px;
@@ -42,4 +43,28 @@
     display: flex;
     align-items: center;
     gap: 15px;
+}
+
+.profile-logo{
+    width: fit-content;
+}
+.profile-logo {
+        width: 20%;
+        border-radius: 50%;
+}
+.profile-div{
+background-color: #0d298d;
+font-size: 13px;
+color: #cdcdcd;
+font-weight: 500;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+cursor: pointer;
+padding: 1px 10px 1px 10px;
+border-radius: 5px;
+margin-top: 350px;
+margin-left: 5px;
+margin-right: 5px;
 }

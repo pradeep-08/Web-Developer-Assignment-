@@ -1,9 +1,11 @@
 import React from 'react'
 import '../style/dashboard.css';
+import logo from '../../image/pro-logo.jpeg'
 function Dashboard() {
   return <>
         <div className="dashboard-main-div">
-                <div className="dashboard-name">
+        <div className="dashboard-child-div">
+        <div className="dashboard-name">
                 {/* <img width="38" height="38" src="https://img.icons8.com/fluency/48/performance-macbook.png" alt="performance-macbook"/> */}
                     <span>Dashboard</span>
                 </div>
@@ -44,8 +46,21 @@ function Dashboard() {
                                 Help</div>
                                 <img width="10" height="10" src="https://img.icons8.com/ios-filled/50/FFFFFF/forward--v1.png" alt="forward--v1"/>      
                         </div>
+        </div>
+                
                         
-                <div className="profile-div"></div>
+                        <div className="profile-div">
+                      
+                      <img className='profile-logo' src={logo} alt="" />
+                    
+                      <div className='profile-info'>
+                      <div>Evano</div>
+                      <div style={{color:"#838E9C"}}>Project Manager</div>
+                      </div>
+                      <img width="10" height="10" src="https://img.icons8.com/metro/26/EBEBEB/sort-down.png" alt="sort-down"/>
+              </div>
+                        
+                
         </div>
   </>
     
