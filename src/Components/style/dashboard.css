@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
+.dashboard-main-div{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    gap: 35px;
+   font-family: "Open Sans", sans-serif;
+    font-style: normal;
+}
+.dashboard-contents{
+    color: rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 0.85rem;
+   
+}
+.dashboard-contents:hover{
+    color: #C4C7FA;
+    transition:  0.18s ease-out 100ms;
+    padding: 1px;
+    border-left: 3px #C4C7FA solid;
+  
+}
+.icon-dashboard{
+    color: #fff;
+    background-color: #fff;
+}
+.dashboard-name{
+    font-size: 1.5rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 1px #b9b9b9 solid;
+}
+.content-inner{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
