@@ -40,7 +40,7 @@ function Bar2() {
               </div>
                  <div className="bar-content-description">
                   <div className='des-title'>Earning</div>
-                    <div className='dollar'><span style={{color:'Green'}}>$</span> <CountUp duration={15} className="counter" end={198} />k </div>
+                    <div className='dollar'><span style={{color:'Green'}}>$</span> <CountUp duration={15} className="counter" end={198} />.<CountUp duration={10} className="counter" end={9} />k </div>
                   <div className='des-ack'><span className='percentage'><span className='percentag-1'>↑</span><CountUp duration={10} className="counter" end={37.8} />% </span> this month</div>
                 </div>
             </div>
@@ -52,7 +52,7 @@ function Bar2() {
                  <div className="bar-content-description">
                   <div className='des-title'>Orders</div>
                     <div className='dollar'><span style={{color:"rgb(189, 52, 52)"}}>$</span> <CountUp duration={15} className="counter" end={2.4} />.4k</div>
-                  <div className='des-ack'><span style={{color:"rgb(189, 52, 52)"}} className='percentage'><span className='percentag-1' >↓</span> 2% </span> this month</div>
+                  <div className='des-ack'><span style={{color:"rgb(189, 52, 52)"}} className='percentage'><span className='percentag-1' >↓</span> <CountUp duration={10} className="counter" end={2} /> % </span> this month</div>
                 </div>
             </div>
             <div className="bar-2-contents">
@@ -62,8 +62,8 @@ function Bar2() {
                  <div className="bar-content-description">
                   <div className='des-title'>Balance</div>
                  
-                  <div className='dollar'><span style={{color:"rgb(189, 52, 52)"}}>$</span> <CountUp duration={12} className="counter" end={2.4} />.9k</div>
-                    <div className='des-ack'><span style={{color:"rgb(189, 52, 52)"}} className='percentage'><span className='percentag-1' >↓</span> 3% </span> this month</div>
+                  <div className='dollar'><span style={{color:"rgb(189, 52, 52)"}}>$</span> <CountUp duration={12} className="counter" end={2.4} />.<CountUp duration={15} className="counter" end={9} />k</div>
+                    <div className='des-ack'><span style={{color:"rgb(189, 52, 52)"}} className='percentage'><span className='percentag-1' >↓</span> <CountUp duration={10} className="counter" end={3} />.4% </span> this month</div>
                 </div>
             </div>
             <div className="bar-2-contents">
@@ -72,8 +72,8 @@ function Bar2() {
               </div>
                  <div className="bar-content-description">
                   <div className='des-title'>Total Sales</div>
-                    <div className='dollar'><span style={{color:'Green'}}>$</span> <CountUp duration={12} className="counter" end={101} />k</div>
-                  <div className='des-ack'><span className='percentage'><span className='percentag-1'>↑</span><CountUp duration={10} className="counter" end={27.8} /> % </span> this month</div>
+                    <div className='dollar'><span style={{color:'Green'}}>$</span> <CountUp duration={12} className="counter" end={101} />.<CountUp duration={18} className="counter" end={7} />k</div>
+                  <div className='des-ack'><span className='percentage'><span className='percentag-1'>↑</span> <CountUp duration={10} className="counter" end={27.8} />.5% </span> this month</div>
                 </div>
             </div>
         </div>
