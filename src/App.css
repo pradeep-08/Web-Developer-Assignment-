@@ -9,10 +9,12 @@
 .dashboard{
   height: 953px;
   width: 15%;
-  background-color: rgb(23,34,51);
+  background-color: #000000;
 }
 .mainboard{
   height: 953px;
   width: 100%;
   background-color: rgb(159, 147, 147);
+  display: flex;
+  flex-direction: column;
 }
