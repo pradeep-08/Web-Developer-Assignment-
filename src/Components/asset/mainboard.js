@@ -1,24 +1,22 @@
 import React from 'react'
 import '../style/mainboard.css';
+import Bar1 from './bar1';
+import Bar2 from './bar2';
+import Bar3 from './bar3';
+import Bar4 from './bar4';
+
+
+
+
+
 
 function Mainboard() {
   return <>
     <div className='main-board-div'>
-        <div className="bar-1"></div>
-        <div className="bar-2">
-            <div className="bar-2-contents"></div>
-            <div className="bar-2-contents"></div>
-            <div className="bar-2-contents"></div>
-            <div className="bar-2-contents"></div>
-        </div>
-        <div className="bar-3">
-        <div className="bar-3-contents-1"></div>
-            <div className="bar-3-contents-2"></div>
-        </div>
-        <div className="bar-4">
-        <div className="bar-4-contents-1"></div>
-        </div>
-        
+        <Bar1/>
+        <Bar2/>
+        <Bar3/>
+        <Bar4/>
     </div>
   </>
 }

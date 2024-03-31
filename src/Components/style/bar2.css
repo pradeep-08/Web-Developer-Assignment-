@@ -1,0 +1,18 @@
+.bar-2{
+    width: 100%;
+    background-color: rgb(12, 20, 17);
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+.bar-2-contents{
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 8px;
+}
