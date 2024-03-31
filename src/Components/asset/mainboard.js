@@ -7,9 +7,6 @@ import Bar4 from './bar4';
 
 
 
-
-
-
 function Mainboard() {
   return <>
     <div className='main-board-div'>

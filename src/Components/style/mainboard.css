@@ -1,4 +1,7 @@
-
+.main-board-div{
+    display: flex;
+    flex-direction: column;
+}
 
 
 
