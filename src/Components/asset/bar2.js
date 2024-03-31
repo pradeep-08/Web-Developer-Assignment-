@@ -51,7 +51,7 @@ function Bar2() {
               </div>
                  <div className="bar-content-description">
                   <div className='des-title'>Orders</div>
-                    <div className='dollar'><span style={{color:"rgb(189, 52, 52)"}}>$</span> <CountUp duration={15} className="counter" end={2.4} />.4k</div>
+                    <div className='dollar'><span style={{color:"rgb(189, 52, 52)"}}>$</span> <CountUp duration={30} className="counter" end={2.4} />.4k</div>
                   <div className='des-ack'><span style={{color:"rgb(189, 52, 52)"}} className='percentage'><span className='percentag-1' >↓</span> <CountUp duration={10} className="counter" end={2} /> % </span> this month</div>
                 </div>
             </div>
