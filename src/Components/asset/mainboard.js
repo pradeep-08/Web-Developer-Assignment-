@@ -15,7 +15,9 @@ function Mainboard() {
         <div className="bar-3-contents-1"></div>
             <div className="bar-3-contents-2"></div>
         </div>
-        <div className="bar-4"></div>
+        <div className="bar-4">
+        <div className="bar-4-contents-1"></div>
+        </div>
         
     </div>
   </>
