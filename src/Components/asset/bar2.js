@@ -1,9 +1,37 @@
 import React from 'react'
 import '../style/bar2.css';
-
+import CountUp from "react-countup";
 
 
 function Bar2() {
+//   const counters = document.querySelectorAll('.counter');
+// const speed = 100; // The lower the slower
+
+// counters.forEach(counter => {
+// 	const updateCount = () => {
+// 		const target = +counter.getAttribute('data-target');
+// 		const count = +counter.innerText;
+
+// 		// Lower inc to slow and higher to slow
+// 		const inc = target / speed;
+
+// 		// console.log(inc);
+// 		// console.log(count);
+
+// 		// Check if target is reached
+// 		if (count < target) {
+// 			// Add inc to count and output in counter
+// 			counter.innerText = count + inc;
+// 			// Call function every ms
+// 			setTimeout(updateCount, 1);
+// 		} else {
+// 			counter.innerText = target;
+// 		}
+// 	};
+
+// 	updateCount();
+// });
+
   return <>
          <div className="bar-2">
             <div className="bar-2-contents">
@@ -12,8 +40,8 @@ function Bar2() {
               </div>
                  <div className="bar-content-description">
                   <div className='des-title'>Earning</div>
-                    <div className='dollar'><span style={{color:'Green'}}>$</span> 198k</div>
-                  <div className='des-ack'><span className='percentage'><span className='percentag-1'>↑</span> 37.8% </span> this month</div>
+                    <div className='dollar'><span style={{color:'Green'}}>$</span> <CountUp duration={15} className="counter" end={198} />k </div>
+                  <div className='des-ack'><span className='percentage'><span className='percentag-1'>↑</span><CountUp duration={10} className="counter" end={37.8} />% </span> this month</div>
                 </div>
             </div>
 
@@ -23,7 +51,7 @@ function Bar2() {
               </div>
                  <div className="bar-content-description">
                   <div className='des-title'>Orders</div>
-                    <div className='dollar'><span style={{color:"rgb(189, 52, 52)"}}>$</span> 2.4k</div>
+                    <div className='dollar'><span style={{color:"rgb(189, 52, 52)"}}>$</span> <CountUp duration={15} className="counter" end={2.4} />.4k</div>
                   <div className='des-ack'><span style={{color:"rgb(189, 52, 52)"}} className='percentage'><span className='percentag-1' >↓</span> 2% </span> this month</div>
                 </div>
             </div>
@@ -33,7 +61,8 @@ function Bar2() {
               </div>
                  <div className="bar-content-description">
                   <div className='des-title'>Balance</div>
-                  <div className='dollar'><span style={{color:"rgb(189, 52, 52)"}}>$</span> 2.9k</div>
+                 
+                  <div className='dollar'><span style={{color:"rgb(189, 52, 52)"}}>$</span> <CountUp duration={12} className="counter" end={2.4} />.9k</div>
                     <div className='des-ack'><span style={{color:"rgb(189, 52, 52)"}} className='percentage'><span className='percentag-1' >↓</span> 3% </span> this month</div>
                 </div>
             </div>
@@ -43,8 +72,8 @@ function Bar2() {
               </div>
                  <div className="bar-content-description">
                   <div className='des-title'>Total Sales</div>
-                    <div className='dollar'><span style={{color:'Green'}}>$</span> 101k</div>
-                  <div className='des-ack'><span className='percentage'><span className='percentag-1'>↑</span> 13.4% </span> this month</div>
+                    <div className='dollar'><span style={{color:'Green'}}>$</span> <CountUp duration={12} className="counter" end={101} />k</div>
+                  <div className='des-ack'><span className='percentage'><span className='percentag-1'>↑</span><CountUp duration={10} className="counter" end={27.8} /> % </span> this month</div>
                 </div>
             </div>
         </div>
@@ -52,5 +81,6 @@ function Bar2() {
    
   
 }
+
 
 export default Bar2;
