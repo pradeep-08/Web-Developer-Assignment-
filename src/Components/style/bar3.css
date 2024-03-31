@@ -1,21 +1,22 @@
 .bar-3{
     width: 100%;
-    background-color: rgb(27, 190, 165);
-    height: 400px;
+    height: 450px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
 }
 .bar-3-contents-1{
-    background-color: rgb(247, 154, 154);
-    height: 350px;
+    background-color: rgb(255, 255, 255);
+    height: 380px;
     width: 64%;
     border-radius: 8px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .bar-3-contents-2{
-    background-color: rgb(177, 133, 133);
-    height: 350px;
+    background-color: rgb(255, 255, 255);
+    height: 380px;
     width: 350px;
     border-radius: 8px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
