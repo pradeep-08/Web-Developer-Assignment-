@@ -50,3 +50,44 @@
     font-weight: 700;
     color: rgb(149, 149, 149);
 }
+
+@media screen and (max-width: 600px){
+    .bar-2{
+        width: 10%;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: 1;
+    }
+
+    .bar-2-contents{
+        background-color: rgb(255, 255, 255);
+        height: 150px;
+        width: 280px;
+        border-radius: 8px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+    
+}
+
+@media screen and (min-width: 600px) and (max-width: 968px) {
+    .bar-2{
+        width: 100%;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .bar-2-contents{
+        background-color: rgb(255, 255, 255);
+        height: 150px;
+        width: 280px;
+        border-radius: 8px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+}

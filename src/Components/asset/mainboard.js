@@ -11,8 +11,8 @@ function Mainboard() {
   return <>
     <div className='main-board-div'>
         <Bar1/>
-        {/* <Bar2/>
-        <Bar3/>
+         <Bar2/>
+       {/* <Bar3/>
         <Bar4/> */}
     </div>
   </>
