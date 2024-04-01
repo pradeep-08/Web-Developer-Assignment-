@@ -191,3 +191,50 @@
     bottom: 100px;
     top: 90px;
 }
+
+
+@media screen and (max-width: 600px){
+    .bar-3-contents-1{
+        background-color: rgb(255, 255, 255);
+        height: 350px;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+    .bar-3{
+        width: 90%;
+        height: 550px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .static-bar-1,.static-bar-2,.static-bar-3,.static-bar-4,.static-bar-5,.static-bar-6,.static-bar-7,.static-bar-8,.static-bar-9,.static-bar-10,.static-bar-11,.static-bar-12{
+        width: 12px;
+        background-color: rgb(166, 166, 212);
+        height: 220px;
+        border-radius: 8px;
+    }
+    .child-12{
+        width: 1px;
+        background-color: rgb(255, 255, 255);
+        height: 80px;
+        
+    }
+    .bar-inner-content-3 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 10px;
+        height: 30px;
+        align-items: start;
+        
+    }
+    .bar-inner-content-2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 250px;
+    }
+}

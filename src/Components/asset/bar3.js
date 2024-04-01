@@ -43,25 +43,6 @@ function Bar3() {
                 <div className="static-bar-month">Nov</div>
                 <div className="static-bar-month">Dec</div>
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         </div>
             <div className="bar-3-contents-2">
               <div className="bar-inner-content-1"> <div> <h3 style={{marginBottom:"2"}}>Customers</h3>
