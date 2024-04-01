@@ -22,6 +22,9 @@
     height: 380px;
     width: 350px;
     border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+   
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
@@ -53,14 +56,14 @@
     align-items: center;
     justify-content: space-evenly;
     width: max-content;
-    background-color: #9ca1a8;
+    background-color:rgb(166, 166, 212);
     padding: 0 8px 0 8px;
     border-radius: 5px;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 15px;
-    color: rgb(79, 79, 79);
+    color: rgb(91, 93, 111);
 }
 .monthly-earing{
     font-family: "Roboto", sans-serif;
@@ -72,12 +75,17 @@
 
 .static-bar-1,.static-bar-2,.static-bar-3,.static-bar-4,.static-bar-5,.static-bar-6,.static-bar-7,.static-bar-8,.static-bar-9,.static-bar-10,.static-bar-11,.static-bar-12{
     width: 40px;
-    background-color: rgb(170, 173, 198);
+    background-color: rgb(166, 166, 212);
     height: 220px;
     border-radius: 8px;
+    
 }
 .static-bar-8{
+    width: 40px;
     background-color: rgb(76, 89, 230);
+    height: 220px;
+    transition: width 12s, height 14s;
+    transition-timing-function: linear;
 }
 .child-1{
     width: 40px;
@@ -143,8 +151,43 @@
     width: 40px;
     background-color: rgb(255, 255, 255);
     height: 180px;
+    
 }
 .static-bar-month{
     color: #53565b;
     font-weight: 700;
+}
+.bar-inner-content-child{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: end;
+        margin-top: 35px;
+}
+.bar-inner-content-02{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.process-bar{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.percentage-count{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 50px;
+    left: 50px;
+    bottom: 100px;
+    top: 90px;
 }

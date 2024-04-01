@@ -1,7 +1,7 @@
 import React from 'react'
 import '../style/bar3.css';
-
-
+import {  Circle } from 'rc-progress';
+import CountUp from "react-countup";
 
 function Bar3() {
 
@@ -63,7 +63,22 @@ function Bar3() {
 
 
         </div>
-            <div className="bar-3-contents-2"></div>
+            <div className="bar-3-contents-2">
+              <div className="bar-inner-content-1"> <div> <h3 style={{marginBottom:"2"}}>Customers</h3>
+                  <div className="monthly-earing" >Customers that buy products</div>
+                     </div>
+                    </div>
+                    <div className='bar-inner-content-child'>
+                 <div className="bar-inner-content-02">
+                <div className='process-bar'>
+                <div className='percentage-count' ><span style={{fontSize :"25px", fontWeight:"700", color:"#6a41c4"}}><CountUp duration={30} className="counter" end={65} /> % </span>
+                <div style={{fontSize :"15px", fontWeight:"500", color:"rgb(166, 166, 212)", paddingLeft:"15px"}}>Total New Customers</div></div>
+                <Circle  trailWidth={10} trailColor="rgb(166, 166, 212)" strokeLinecap="square" percent={65} strokeWidth={16} strokeColor="#6a41c4" /> 
+                </div>
+               
+                 </div>
+                 </div>
+            </div>
         </div>
   </>
 }
