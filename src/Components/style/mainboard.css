@@ -1,7 +1,16 @@
 .main-board-div{
     display: flex;
     flex-direction: column;
+    justify-content: start;
 }
 
+
+@media screen and (max-width: 480px) {
+    .main-board-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+}
 
 
