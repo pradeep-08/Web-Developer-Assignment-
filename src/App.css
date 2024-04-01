@@ -1,19 +1,27 @@
 
 .master-div{
+  position: relative;
   display: flex;
+  grid-gap: 40px;
   background-color: #fff;
+  
 }
 
 .dashboard{
   height: 1340px;
-  width: 15%;
+  position: fixed;
+  left: 0;
+  width: 13%;
   background-color: #172233;
   background-color: #000000;
+  position: fixed;
 }
 .mainboard{
   height: fit-content;
-  width: 100%;
+  width: auto;
+  width: 90%;
+  margin-left: 13%;
   background-color:#F3F5F9;
-  display: flex;
-  flex-direction: column;
+  
+  
 }
