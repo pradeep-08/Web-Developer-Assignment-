@@ -3,7 +3,7 @@
   position: relative;
   display: flex;
   grid-gap: 40px;
-  background-color: #fff;
+  background-color: #F3F5F9;
   
 }
 
@@ -12,14 +12,12 @@
   position: fixed;
   left: 0;
   width: 13%;
-  background-color: #172233;
   background-color: #000000;
   position: fixed;
 }
 .mainboard{
   height: fit-content;
-  width: auto;
-  width: 90%;
-  margin-left: 13%;
+  width: 100%;
+  margin-left: 5%;
   background-color:#F3F5F9;
 }
