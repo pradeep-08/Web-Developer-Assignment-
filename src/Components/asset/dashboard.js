@@ -19,7 +19,7 @@ function Dashboard() {
 
   return <>
          <div id="mySidenav" className={`sidenav ${isOpen ? 'open' : ''}`}>
-        <a href="#" className="closebtn" onClick={closeNav}>&times;</a>
+        <a href={() => false} className="closebtn" onClick={closeNav}>&times;</a>
         
         <div className="dashboard-child-div">
         <div className="dashboard-name">
