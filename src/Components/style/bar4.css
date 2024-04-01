@@ -1,16 +1,31 @@
 .bar-4{
     width: 100%;
-   
     height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 
 .bar-4-contents-1{
-    background-color: #fff;
+    background-color: #ffffff;
     height: 700px;
     width: 90%;
     border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.bar-filled-contents{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 97%;
+}
+.bar-4-contains{
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
 }
