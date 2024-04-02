@@ -13,7 +13,7 @@ function Mainboard() {
         <Bar1/>
          <Bar2/>
        <Bar3/>
-        {/* <Bar4/> */}
+        <Bar4/>
     </div>
   </>
 }
