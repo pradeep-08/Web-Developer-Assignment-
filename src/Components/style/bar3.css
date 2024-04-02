@@ -9,7 +9,7 @@
 }
 .bar-3-contents-1{
     background-color: rgb(255, 255, 255);
-    height: 380px;
+    height: 400px;
     width: 64%;
     border-radius: 10px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -73,14 +73,14 @@
 }
 
 .static-bar-1,.static-bar-2,.static-bar-3,.static-bar-4,.static-bar-5,.static-bar-6,.static-bar-7,.static-bar-8,.static-bar-9,.static-bar-10,.static-bar-11,.static-bar-12{
-    width: 40px;
+    width: 35px;
     background-color: rgb(166, 166, 212);
     height: 220px;
     border-radius: 8px;
     
 }
 .static-bar-8{
-    width: 40px;
+    width: 35px;
     background-color: rgb(76, 89, 230);
     height: 220px;
     transition: width 12s, height 14s;
@@ -149,7 +149,7 @@
 .child-12{
     width: 40px;
     background-color: rgb(255, 255, 255);
-    height: 180px;
+    height: 80px;
     
 }
 .static-bar-month{
@@ -246,10 +246,10 @@
 
     .bar-3-contents-2{
         background-color: rgb(255, 255, 255);
-        height: 280px;
+        height: 300px;
         width: 280px;
         border-radius: 8px;
-        margin: 15px;
+        margin: 5px;
         display: flex;
         flex-direction: column;
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
