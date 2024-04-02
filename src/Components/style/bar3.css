@@ -196,7 +196,7 @@
 }
 
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 768px){
     .bar-3-contents-1{
         background-color: rgb(255, 255, 255);
         height: fit-content;
