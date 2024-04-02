@@ -199,16 +199,17 @@
 @media screen and (max-width: 600px){
     .bar-3-contents-1{
         background-color: rgb(255, 255, 255);
-        height: 350px;
+        height: fit-content;
         width: 90%;
         padding: 15px;
+        margin-top: 15px;
         margin-bottom: 25px;
         border-radius: 10px;
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     }
     .bar-3{
         width: 90%;
-        height: 550px;
+        height: fit-content;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         
@@ -240,14 +241,15 @@
         flex-direction: row;
         align-items: center;
         justify-content: space-evenly;
-        height: 250px;
+        height: 300px;
     }
 
     .bar-3-contents-2{
         background-color: rgb(255, 255, 255);
         height: 280px;
-        width: 330px;
+        width: 280px;
         border-radius: 8px;
+        margin: 15px;
         display: flex;
         flex-direction: column;
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
