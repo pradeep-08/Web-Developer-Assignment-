@@ -1,12 +1,17 @@
-import React from 'react'
+import React, { useEffect} from 'react';
 import '../style/bar2.css';
 import CountUp from "react-countup";
-
+import AOS from 'aos';
 
 function Bar2() {
+  useEffect(()=>{
+    AOS.init({duration:1000});
+  },[]);
+
+
   return <>
          <div className="bar-2">
-            <div className="bar-2-contents">
+            <div  data-aos="fade-zoom-out" className="bar-2-contents">
               <div className="bar-content-image">
                 <img width="80" height="80" src="https://img.icons8.com/color/96/us-dollar-circled--v1.png" alt="us-dollar-circled--v1"/>
               </div>

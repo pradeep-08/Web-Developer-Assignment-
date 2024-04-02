@@ -33,7 +33,7 @@ function Bar4() {
 
             <div className="product-list-main">
                 <div className="product-list-child-1">
-                  <div>
+                  <div className='product-image'>
                       <img style={{borderRadius:"5px"}} width="80" height="50" src="https://images.saasworthy.com/tr:w-160,h-0,c-at_max,e-sharpen-1/adobephotoshop_10786_logo_1632385034_7fozn.svg" alt="" />
                       </div>
                       <div className="product-details-info">
