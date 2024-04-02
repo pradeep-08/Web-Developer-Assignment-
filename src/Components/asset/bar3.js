@@ -52,7 +52,7 @@ function Bar3() {
                     <div className='bar-inner-content-child'>
                  <div className="bar-inner-content-02">
                 <div className='process-bar'>
-                <div className='percentage-count' ><span style={{fontSize :"25px", fontWeight:"700", color:"#6a41c4"}}><CountUp duration={30} className="counter" end={65} /> % </span>
+                <div className='percentage-count' ><span className='percentage-responsive'><CountUp duration={30} className="counter" end={65} /> % </span>
                 <div style={{fontSize :"15px", fontWeight:"500", color:"rgb(166, 166, 212)", paddingLeft:"15px"}}>Total New Customers</div></div>
                 <Circle  trailWidth={10} trailColor="rgb(166, 166, 212)" strokeLinecap="square" percent={65} strokeWidth={16} strokeColor="#6a41c4" /> 
                 </div>
