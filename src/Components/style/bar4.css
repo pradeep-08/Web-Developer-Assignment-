@@ -51,6 +51,7 @@
 .product-list-child-1{
     width: 80%;
     display: flex;
+    cursor: pointer;
 }
 .product-details-info{
     margin-left: 15px;
