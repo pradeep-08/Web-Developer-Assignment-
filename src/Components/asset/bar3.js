@@ -9,7 +9,7 @@ function Bar3() {
    <div className="bar-3">
         <div className="bar-3-contents-1">
             <div className="bar-inner-content-1">
-            <div> <h3 style={{marginBottom:"2"}}>Overview</h3>
+            <div> <h3 className='overview' style={{marginBottom:"2"}}>Overview</h3>
                 <div className="monthly-earing" >Monthly Earning</div>
                  </div>
               <div className="drop-down">Quarterly<img width="10" height="10" src="https://img.icons8.com/metro/26/EBEBEB/sort-down.png" alt="sort-down"/></div>

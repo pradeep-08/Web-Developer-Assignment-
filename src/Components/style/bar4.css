@@ -59,7 +59,8 @@
 .product-details{
     color: #8397ac;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 500;
+    margin-top: 10px;
 }
 .product-name{
     font-size: 15px;
